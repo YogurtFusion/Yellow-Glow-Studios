@@ -3,9 +3,8 @@ import Image from "next/image";
 
 const cardData = [
   {
-    title: "Lighthouse Cafe",
-    desc: "cafe",
-    img: "/images/lighthout-mockup.png",
+    title: "Verve",
+    desc: "Digital Product",
   },
 ];
 const ProjectSmallCardBottom = () => {
@@ -14,13 +13,9 @@ const ProjectSmallCardBottom = () => {
       {cardData.map((data, index) => (
         <div key={index} className=" flex flex-col w-full">
           <div className="bg-[#E8E7E3] relative flex-1 w-full flex items-center justify-center min-h-[20rem] overflow-hidden ">
-         <Image
-         src={data.img}
-         alt={data.title}
-         fill
-         className="object-cover"
-         sizes="(max-width: 768px) 100vw, 50vw "
-         />
+        <span className="font-serif italic text-3xl text-[#92918F] ">
+            Verve
+          </span>
           </div>
           <div className="mt-3">
             <h3 className="text-lg font-medium text-neutral-900 ">{data.title} </h3>
