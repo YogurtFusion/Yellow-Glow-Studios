@@ -1,5 +1,5 @@
 import React from "react";
-import CtaBtn from "./ui/CtaBtn";
+import CtaBtn from "../../ui/CtaBtn";
 
 const CTA = () => {
   return (

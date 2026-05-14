@@ -1,5 +1,5 @@
 import React from "react";
-import AboutBtn from "./ui/AboutBtn";
+import AboutBtn from "../../ui/AboutBtn";
 const approachData = [
   {
     week: "week 01",

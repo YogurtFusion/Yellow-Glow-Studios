@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import NavBtn from "./ui/NavBtn";
+import NavBtn from "../../ui/NavBtn";
 
 const Navbar = () => {
   return (
-    <nav className="   fixed top-6 left-1/2 -translate-x-1/2  z-50 backdrop-blur-md shadow-sm rounded-full h-16 md:max-w-6xl max-w-xl w-[90%] lg:w-full mx-auto flex justify-between items-center px-4 md:px-6 border border-neutral-200 ">
+    <nav className="   fixed top-6 left-1/2 -translate-x-1/2  z-50 backdrop-blur-md shadow-sm rounded-full h-16 md:max-w-6xl max-w-xl w-[90vw] lg:w-full mx-auto flex justify-between items-center px-4 md:px-6 border border-neutral-200 ">
       {/* logo */}
       <Link href={"/"} className=" group flex  items-center gap-3 ">
         <div className=" flex items-center justify-center text-xs font-serif w-9 h-9 rounded-full border border-neutral-900 group-hover:scale-105 transition-transform  ">
@@ -35,7 +35,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hidden md:block">
-          <Link href={"#about"} className="hover:text-black transition-colors">
+          <Link href={"/about"} className="hover:text-black transition-colors">
             About Us
           </Link>
         </li> 

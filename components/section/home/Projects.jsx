@@ -1,8 +1,8 @@
 import React from "react";
-import SectionBtn from "./ui/SectionBtn";
-import ProjectLargeCard from "./ui/PtLargeCard";
-import ProjectSmallCardTop from "./ui/ptSmallCardT";
-import ProjectSmallCardBottom from "./ui/ptSmallCardB";
+import SectionBtn from "../../ui/SectionBtn";
+import ProjectLargeCard from "../../ui/PtLargeCard";
+import ProjectSmallCardTop from "../../ui/ptSmallCardT";
+import ProjectSmallCardBottom from "../../ui/ptSmallCardB";
 
 const Projects = () => {
   return (

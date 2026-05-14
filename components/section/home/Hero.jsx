@@ -1,5 +1,5 @@
 import React from "react";
-import HeroButton from "./ui/HeroButton";
+import HeroButton from "../../ui/HeroButton";
 const Hero = () => {
   return (
     <section
