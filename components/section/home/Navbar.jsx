@@ -39,6 +39,11 @@ const Navbar = () => {
             About Us
           </Link>
         </li> 
+        <li className="hidden md:block">
+          <Link href={"/contact"} className="hover:text-black transition-colors">
+            contact Us
+          </Link>
+        </li> 
        
          
      

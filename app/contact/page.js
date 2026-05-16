@@ -1,12 +1,12 @@
-import ProjectPage from '@/components/section/projects/project'
+import Contact from '@/components/section/contact/Contact'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-
-      <ProjectPage/>
+        <Contact/>
     </div>
+
   )
 }
 

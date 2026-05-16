@@ -7,13 +7,12 @@ import Footer from "@/components/section/home/Footer";
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // pick only what you’ll use
+  weight: ["400", "500", "600", "700"], 
 });
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
   subsets: ["latin"],
-  weight: ["400"],
 });
 
 export const metadata = {
