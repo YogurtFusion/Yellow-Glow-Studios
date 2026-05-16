@@ -1,19 +1,18 @@
 import React from "react";
+import AboutHead from "./AboutHead";
+import Philosophy from "./Philosophy";
 
 const About = () => {
   return (
-    <div className="about-bg h-screen w-screen">
+    <section className="about-bg min-h-screen w-full flex flex-col justify-center ">
       {/* wrap */}
-      <div className="p-12 lg:p-24">
+      <div className=" px-6 py-8 md:p-12 lg:p-24  w-full">
         {/* head */}
-        <div className=" text-3xl md:text-4xl lg:text-6xl tracking-tight p-12 w-full max-w-3xl mx-auto text-center font-semibold    ">
-          <h1 className=" ">
-            We craft digital experiences with editorial precision and artisanal
-            intent.
-          </h1>
-        </div>
+        <AboutHead/>
+
+        <Philosophy/>
       </div>
-    </div>
+    </section>
   );
 };
 
