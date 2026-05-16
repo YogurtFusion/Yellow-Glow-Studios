@@ -2,6 +2,7 @@ import React from "react";
 import AboutHead from "./AboutHead";
 import Philosophy from "./Philosophy";
 import AboutValue from "./AboutValue";
+import AboutCta from "./AboutCta";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
 
         <Philosophy/>
         <AboutValue/>
+        <AboutCta/>
       </div>
     </section>
   );

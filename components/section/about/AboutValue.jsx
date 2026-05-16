@@ -19,7 +19,7 @@ const Data = [
 ];
 const AboutValue = () => {
   return (
-    <section className="max-w-7xl mx-auto" >
+    <section className="max-w-7xl mx-auto pb-4" >
       {/* wrap */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-between items-center">
         {Data.map((item) => (
