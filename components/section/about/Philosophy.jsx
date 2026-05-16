@@ -16,10 +16,10 @@ const Philosophy = () => {
       </div>
 
       <div className=" flex flex-col justify-center items-center w-full ">
-        <h1 className=" font-semibold text-2xl text-stone-900 leading-snug text-left w-full max-w-sm  ">
+        <h2 className=" font-semibold text-2xl text-stone-900 leading-snug text-left w-full max-w-sm  ">
           Our Philosophy
-        </h1>
-        <p className=" text-stone-800 max-w-sm">
+        </h2>
+        <p className=" text-stone-800 max-w-sm text-pretty leading-normal text-base">
           We believe in the power of negative space. In a world of visual noise,
           restraint is a luxury. Our approach marries the tactile sensibility of
           print design with the fluid constraints of digital environments.

@@ -1,6 +1,7 @@
 import React from "react";
 import AboutHead from "./AboutHead";
 import Philosophy from "./Philosophy";
+import AboutValue from "./AboutValue";
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
         <AboutHead/>
 
         <Philosophy/>
+        <AboutValue/>
       </div>
     </section>
   );
