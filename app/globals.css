@@ -1,5 +1,10 @@
 @import "tailwindcss";
-
+body{
+::selection{
+  color: #fdfbf7;
+  background: #000;
+}
+}
 :root {
   /* color */
   --c-bg: #f5f5f0;
@@ -35,6 +40,19 @@
   --ls-h2: -0.02em;
   --ls-p: 0.012em;
   --ls-link: 0.01em;
+}
+@theme{
+  --color-bg: #f5f5f0;
+  --color-btn-bg: white;
+  --color-btn-text: #fff;
+  --color-sub-head: #666;
+  --color-h1: #221f1c;
+  --color-h2: #121212;
+  --color-nav-bg: rgba(255, 255, 255, 0.6);
+  --color-hero-text-bg: #f5f5f0cc;
+  --color-hero-p: #1c1c1c;
+  --color-project-bg: #eff0ed;
+  --color-text: #404040;
 }
 @layer utilities {
   .bg-projects-gradient {

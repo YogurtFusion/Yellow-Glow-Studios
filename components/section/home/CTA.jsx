@@ -15,7 +15,7 @@ const CTA = () => {
               Ready to start?
             </p>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[0.9] text-[#121212] ">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[0.9] text-h2 ">
             LET'S BUILD SOMETHING <br /> GREAT.{" "}
           </h1>
         </div>
