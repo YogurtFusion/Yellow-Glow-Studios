@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            href={"#services"}
+            href={"/#services"}
             className="hover:text-black transition-colors"
           >
             Services

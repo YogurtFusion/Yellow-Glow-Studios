@@ -34,7 +34,7 @@ const About = () => {
             </span>
 
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight ">
-            We’re a focused web studio built on clarity, execution & <span className="text-neutral-400">restraint</span>
+            We’re a focused web studio built on clarity, execution &amp; <span className="text-neutral-400">restraint</span>
             </h2>
             <div className="flex flex-col gap-6 max-w-md text-neutral-600 text-lg leading-relaxed">
               <p>

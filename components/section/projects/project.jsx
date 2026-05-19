@@ -1,7 +1,7 @@
 import ProjectsCards from "@/components/ui/ProjectsCards";
 import React from "react";
-import CtaSection from "@/components/section/home/ProjectCta";
-import ProjectCta from "@/components/section/home/ProjectCta";
+import CtaSection from "@/components/section/projects/ProjectCta";
+import ProjectCta from "@/components/section/projects/ProjectCta";
 
 const processData = [
   {
