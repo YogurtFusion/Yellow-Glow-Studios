@@ -13,7 +13,7 @@ const ProjectLargeCard = () => {
     <div className="flex flex-col  ">
       {cardData.map((data, index) => (
         <div key={index} className="flex flex-col w-full">
-          <div className=" bg-[#D9CFA6] relative w-full aspect-4/5 flex flex-1  items-center justify-center md:max-h-160 md:h-full  group  overflow-hidden">
+          <div className=" bg-[#D9CFA6] relative w-full aspect-square md:aspect-4/5 flex flex-1  items-center justify-center  md:max-h-160 md:h-full  group  overflow-hidden">
             <span className="font-serif italic text-3xl text-[#B1A988] "> {data.title}  </span>
             
           </div>

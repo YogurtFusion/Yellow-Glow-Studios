@@ -2,6 +2,39 @@ import React from "react";
 import Link from "next/link";
 import NavBtn from "../../ui/NavBtn";
 
+const navLinks = [
+  {
+    id:"ID1",
+    title:"home",
+    link:"/",
+  },
+  {
+    id:"ID2",
+    title:"our work",
+    link:"",
+  },
+  {
+    id:"ID3",
+    title:"services",
+    link:"",
+  },
+  {
+    id:"ID4",
+    title:"",
+    link:"",
+  },
+  {
+    id:"ID5",
+    title:"",
+    link:"",
+  },
+  {
+    id:"ID6",
+    title:"",
+    link:"",
+  },
+]
+
 const Navbar = () => {
   return (
     <nav className="   fixed top-6 left-1/2 -translate-x-1/2  z-50 backdrop-blur-md shadow-sm rounded-full h-16 md:max-w-6xl max-w-xl w-[90vw] lg:w-full mx-auto flex justify-between items-center px-4 md:px-6 border border-neutral-200 ">
@@ -11,7 +44,7 @@ const Navbar = () => {
            YG
         </div>
         {/* logo-text */}
-        <span className="  font-light  tracking-tight hidden md:block text-lg ">
+        <span className="  font-light  tracking-tight hidden md:block text-sm md:text-lg leading-tight  ">
           Yellow Glow Studios
         </span>
       </Link>
