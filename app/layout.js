@@ -1,7 +1,7 @@
 import { Poppins, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/section/home/Navbar";
-import Footer from "@/components/section/home/Footer";
+import Navbar from "@/components/layout/navbar/Navbar";
+import Footer from "@/components/layout/Footer";
 
 
 const poppins = Poppins({

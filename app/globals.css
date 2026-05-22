@@ -6,19 +6,51 @@ body{
 }
 }
 :root {
-  /* color */
-  --c-bg: #f5f5f0;
-  --c-btn-bg: white;
-  --c-btn-text: #fff;
-  --c-sub-head: #666;
-  --c-h1: #221f1c;
-  --c-h2: #121212;
+  /* =========================================
+     1. BACKGROUNDS (The Canvas)
+     ========================================= */
+  --c-bg: #fdfbf7; /* Updated to a cleaner, premium cream */
+  --c-bg-alt: #f5f5f0; /* Your original bg; use this for alternating sections (like 'Services') */
   --c-nav-bg: rgba(255, 255, 255, 0.6);
-  --c-hero-text-bg: #f5f5f0cc;
-  --c-hero-p: #1c1c1c;
-  --c-project-bg: #eff0ed;
-  --c-p: #404040;
-  /* font sizes */
+  --c-hero-text-bg: rgba(245, 245, 240, 0.8);
+
+  /* =========================================
+     2. SURFACES (Cards, Modals, Tags)
+     ========================================= */
+  --c-surface: #ffffff; /* Pure white to make cards pop off the cream background */
+  --c-surface-muted: #eff0ed; /* Your original project-bg; use for secondary cards or hover states */
+  --c-surface-dark: #1e1e1e; /* For dark-mode style cards or dark footer */
+
+  /* =========================================
+     3. BRAND ACCENTS (The "Yellow Glow")
+     ========================================= */
+  --c-brand: #e6c35a; /* Sophisticated, muted gold */
+  --c-brand-hover: #d1a738; /* Darker gold for interactive states */
+  --c-brand-light: #fdf7e6; /* Extremely soft yellow background for highlights or special cards */
+
+  /* =========================================
+     4. TYPOGRAPHY (High Contrast to Muted)
+     ========================================= */
+  --c-h1: #1a1a1a; /* Almost black, cinematic contrast */
+  --c-h2: #221f1c; /* Very dark warm grey */
+  --c-p: #404040; /* Readable body copy */
+  --c-sub-head: #666666; /* Subtitles and secondary text */
+  --c-text-muted: #92918f; /* Perfect for meta info, like your 'Oakwood' span */
+
+  /* =========================================
+     5. BORDERS & DIVIDERS
+     ========================================= */
+  --c-border-light: #e8e6e1; /* Soft lines, perfectly matches your radial background dots */
+  --c-border-dark: #d4d2cd; /* For stronger delineation on form inputs */
+
+  /* =========================================
+     6. BUTTONS
+     ========================================= */
+  --c-btn-bg: #1a1a1a; /* Swapped to dark for premium contrast */
+  --c-btn-text: #ffffff;
+
+
+  /* --- Font Sizes, Line Heights, Letter Spacing stay the same --- */
   --fs-hero-h1: 128px;
   --fs-hero-p: 16px;
   --fs-head: 64px;
@@ -29,30 +61,42 @@ body{
   --fs-p: 20px;
   --fs-sub-head: 16px;
 
-  /* line heights */
   --lh-h1: 110%;
   --lh-p: 140%;
   --lh-h2: 110%;
-  /* --lh-p2: 135%; */
 
-  /* letter spacing */
   --ls-h1: 0.01em;
   --ls-h2: -0.02em;
   --ls-p: 0.012em;
   --ls-link: 0.01em;
 }
-@theme{
-  --color-bg: #f5f5f0;
-  --color-btn-bg: white;
-  --color-btn-text: #fff;
-  --color-sub-head: #666;
-  --color-h1: #221f1c;
-  --color-h2: #121212;
-  --color-nav-bg: rgba(255, 255, 255, 0.6);
-  --color-hero-text-bg: #f5f5f0cc;
-  --color-hero-p: #1c1c1c;
-  --color-project-bg: #eff0ed;
-  --color-text: #404040;
+
+@theme {
+  /* Mapping to Tailwind V4 */
+  --color-bg: var(--c-bg);
+  --color-bg-alt: var(--c-bg-alt);
+  --color-nav-bg: var(--c-nav-bg);
+  --color-hero-text-bg: var(--c-hero-text-bg);
+  
+  --color-surface: var(--c-surface);
+  --color-surface-muted: var(--c-surface-muted);
+  --color-surface-dark: var(--c-surface-dark);
+  
+  --color-brand: var(--c-brand);
+  --color-brand-hover: var(--c-brand-hover);
+  --color-brand-light: var(--c-brand-light);
+  
+  --color-h1: var(--c-h1);
+  --color-h2: var(--c-h2);
+  --color-p: var(--c-p);
+  --color-sub-head: var(--c-sub-head);
+  --color-text-muted: var(--c-text-muted);
+  
+  --color-border-light: var(--c-border-light);
+  --color-border-dark: var(--c-border-dark);
+
+  --color-btn-bg: var(--c-btn-bg);
+  --color-btn-text: var(--c-btn-text);
 }
 @layer utilities {
   .bg-projects-gradient {
@@ -71,7 +115,6 @@ body{
   }
 
   body {
-    zoom: 100%;
     font-family: var(--font-poppins);
     background-color: var(--c-bg);
   }

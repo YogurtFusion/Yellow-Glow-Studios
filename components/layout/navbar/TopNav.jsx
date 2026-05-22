@@ -30,7 +30,7 @@ const navLinks = [
   },
 ];
 
-const Navbar = () => {
+const Topnav = () => {
   return (
     <nav className="   fixed top-6 left-1/2 -translate-x-1/2  z-50 backdrop-blur-md shadow-sm rounded-full h-16 md:max-w-6xl max-w-xl w-[90vw] lg:w-full mx-auto flex justify-between items-center px-4 md:px-6 border border-neutral-200 ">
       {/* logo */}
@@ -39,8 +39,8 @@ const Navbar = () => {
           YG
         </div>
         {/* logo-text */}
-        <span className="  font-light  tracking-tight flex text-sm md:text-lg leading-tight  flex-col">
-          Yellow Glow <span className="lg:hidden ">Studios</span>
+        <span className="  font-light  tracking-tight md:flex flex-col lg:block text-sm md:text-lg leading-tight ">
+          Yellow Glow <span>Studios</span>
         </span>
       </Link>
       <ul className=" hidden md:flex items-center justify-between gap-4 lg:gap-8">
@@ -63,4 +63,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Topnav;
