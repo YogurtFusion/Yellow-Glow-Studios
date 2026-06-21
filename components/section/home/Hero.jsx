@@ -18,8 +18,7 @@ const Hero = () => {
           {/* hero body */}
           <div className=" md:col-span-5 flex flex-col md:items-start md:pl-8  space-y-8 gap-6">
             <p className=" text-xl md:text-2xl text-neutral-800  leading-relaxed font-medium max-w-2xs md:max-w-md  mx-auto text-pretty   ">
-              Websites for small brands, restaurants and cafés that turn
-              visitors into customers.
+              Fast, no-fluff websites for local businesses. Built to bring in more calls and more customers.
             </p>
             <div className="hero-btn w-fit mx-auto ">
               <HeroButton />
